@@ -1,0 +1,140 @@
+
+/* nav bar positioned to upper right corner and removed bullet points*/
+.navbargoogle {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
+
+
+/* nav bar list items gives space between each other using margin*/
+.navitem {
+    margin: 15px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link
+a:hover {
+    color: black;
+} */
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+/* this moves the google icon in the center */
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* rouding the corners and styling the search text bar */
+.rounded-corners {
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(632px + 6px);
+    width: 584px;
+    max-width: 584px;
+    margin-top: 10px;
+}
+
+/* this styles is for the button input */
+.btn-google {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* styling for the heading for advanced page */
+.h1-advanced {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+.h2-advanced {
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    color: #333333;
+}
+
+.h2-margin {
+    margin: 50px;
+}
+
+/* styles for advanced page, horizontal line */
+.horizontal-line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+/* styles for the form */
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.left {
+    width: 200px;
+}
+
+.right {
+    width: 385px;
+
+}
+
+.p-advance {
+    font-size: 13px;
+    vertical-align: center;
+}
+
+/* styes for the button advance */
+.btn-advance {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: end;
+    width: 635px;
+    margin-top: 30px;
+}
